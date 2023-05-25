@@ -29,7 +29,7 @@ public class ControllerEx7 implements Initializable {
 		if (dbPw != null && dbPw.equals(pw.getText())) {
 			alert.setContentText("로그인 성공");
 		} else {
-			alert.setContentText("로그인 실패");
+			alert.setContentText("로그인 실패123");
 		}
 		alert.show();
 	}
